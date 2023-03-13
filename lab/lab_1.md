@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmail.com
  * @Date: 2023-03-05 09:27:40
  * @LastEditors: hibana2077 hibana2077@gmail.com
- * @LastEditTime: 2023-03-11 23:04:49
+ * @LastEditTime: 2023-03-13 12:43:02
  * @FilePath: \基於滴灌式水耕農法之改進研究以及實作\lab\lab_1.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -42,3 +42,13 @@
     - 將水培海綿透過毛細現象，將營養液從容器吸到海綿內部，用以模仿未來使用機械手臂澆水和單靠水培海綿讓植物自行吸收營養液的情況。
     - ![圖一](https://media.discordapp.net/attachments/740572974456766486/1084054497048920156/PXL_20230311_100518066.jpg?width=783&height=590)
     - ![圖二](https://media.discordapp.net/attachments/740572974456766486/1084054497308979260/PXL_20230311_100511336.jpg?width=783&height=590)
+
+- 2023/03/12 (第二天)
+    - 草莓開出第二個花朵，並且開始生長。
+    - ![圖一](https://media.discordapp.net/attachments/868759966431973416/1084695885298012190/PXL_20230312_031249345.jpg?width=783&height=590)
+    - ![圖二](https://media.discordapp.net/attachments/868759966431973416/1084695885553868870/PXL_20230312_031252521.jpg?width=783&height=590)
+
+- 2023/03/13 (第三天)
+    - 今天幫草莓的第二個花朵授粉，幫甜薰衣草換水。
+    - ![圖一](https://media.discordapp.net/attachments/868759966431973416/1084696654206214154/PXL_20230313_043631623.jpg?width=783&height=590)
+    - ![圖二](https://media.discordapp.net/attachments/868759966431973416/1084696653874872350/PXL_20230313_043634856.jpg?width=783&height=590)
