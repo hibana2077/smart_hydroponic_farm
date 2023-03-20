@@ -1,8 +1,8 @@
 <!--
  * @Author: hibana2077 hibana2077@gmail.com
  * @Date: 2023-03-05 09:27:40
- * @LastEditors: hibana2077 hibana2077@gmail.com
- * @LastEditTime: 2023-03-13 12:43:02
+ * @LastEditors: hibana2077 hibana2077@gmaill.com
+ * @LastEditTime: 2023-03-20 17:38:11
  * @FilePath: \基於滴灌式水耕農法之改進研究以及實作\lab\lab_1.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -52,3 +52,13 @@
     - 今天幫草莓的第二個花朵授粉，幫甜薰衣草換水。
     - ![圖一](https://media.discordapp.net/attachments/868759966431973416/1084696654206214154/PXL_20230313_043631623.jpg?width=783&height=590)
     - ![圖二](https://media.discordapp.net/attachments/868759966431973416/1084696653874872350/PXL_20230313_043634856.jpg?width=783&height=590)
+
+- 2023/03/16 (第六天)
+    - 今天幫草莓的第三個花朵授粉，全部的植物都換水。
+    - ![圖一](https://media.discordapp.net/attachments/868759966431973416/1087307885396115546/PXL_20230316_110557260.jpg?width=1231&height=926)
+    - ![圖二](https://media.discordapp.net/attachments/868759966431973416/1087307885731647578/PXL_20230316_110551551.jpg?width=1231&height=926)
+
+- 2023/03/18 (第八天)
+    - 今天幫草莓的第二個花朵授粉，多增加花寶營養液。
+    - ![圖一](https://media.discordapp.net/attachments/868759966431973416/1087307861614399528/PXL_20230318_005931021.jpg?width=1231&height=926)
+    - ![圖二](https://media.discordapp.net/attachments/868759966431973416/1087307861845102602/PXL_20230318_005928710.jpg?width=1231&height=926)
