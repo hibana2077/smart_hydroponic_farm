@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmaill.com
  * @Date: 2023-04-10 18:03:04
  * @LastEditors: hibana2077 hibana2077@gmaill.com
- * @LastEditTime: 2023-04-10 18:20:05
+ * @LastEditTime: 2023-04-19 10:54:29
  * @FilePath: /smart_hydroponic_farm/args.cpp
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -30,17 +30,11 @@ ins_mp run = {
     {"rb","ruby %s < %s > %s"},
     {"pl","perl %s < %s > %s"},
     {"rs","rustc %s && %s < %s > %s"},
-    {"swift","swiftc %s && %s < %s > %s"},
-    {"kt","kotlinc %s && %s < %s > %s"},
     {"lua","lua %s < %s > %s"},
 };
 
 int main(int argc, char *argv[])
 {
-    // std::cout << "argc = " << argc << std::endl;
-    // for (int i = 0; i < argc; ++i)
-    //     std::cout << "argv[" << i << "] = " << argv[i] << std::endl;
-    // return 0;
     std::map<std::string, std::string> args;
     if (argc == 0){
         std::cout << "no args" << std::endl;
