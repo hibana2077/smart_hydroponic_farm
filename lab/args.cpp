@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmaill.com
  * @Date: 2023-04-10 18:03:04
  * @LastEditors: hibana2077 hibana2077@gmaill.com
- * @LastEditTime: 2023-04-19 10:54:29
+ * @LastEditTime: 2023-04-19 11:01:04
  * @FilePath: /smart_hydroponic_farm/args.cpp
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -32,6 +32,13 @@ ins_mp run = {
     {"rs","rustc %s && %s < %s > %s"},
     {"lua","lua %s < %s > %s"},
 };
+
+std::string run_compile(std::string lang, std::string sourcefile){
+    std::string cmd = compile[lang];
+    cmd.replace(cmd.find("%s"), 2, sourcefile);
+    system(cmd.c_str());
+    return cmd;
+}
 
 int main(int argc, char *argv[])
 {
