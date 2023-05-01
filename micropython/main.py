@@ -1,3 +1,11 @@
+'''
+Author: hibana2077 hibana2077@gmaill.com
+Date: 2023-04-12 13:17:43
+LastEditors: hibana2077 hibana2077@gmaill.com
+LastEditTime: 2023-05-01 10:19:05
+FilePath: /smart_hydroponic_farm/micropython/main.py
+Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+'''
 import logging
 import network
 from machine import Pin,PWM
@@ -5,6 +13,8 @@ import time
 import urequests
 import math
 
+refreshtime = 10
+url = "http://smartfarm.hibana2077.com"
 logging.basicConfig(level=logging.INFO)
 
 # workflow of this program
@@ -42,6 +52,13 @@ camera2_data = 0
 #PH sensor
 PH_data = 0
 
+#API endpoint
+api_list = {
+    "post_data": {"method": "POST", "url": url + "/api/v1/data"},
+    "get_instruction": {"method": "GET", "url": url + "/api/v1/instruction"}
+}
+
+
 #set plant light
 #ref: http://docs.micropython.org/en/v1.15/esp32/quickref.html#neopixel-driver
 light_wavelength_category = {
@@ -52,6 +69,12 @@ light_wavelength_category = {
     "urtal_photosynthesis_and_kill_bacteria": 435,
     "default": 380
 }
+
+def get_hd_info():
+    import machine as m
+    cpu_freq = m.freq()
+    
+    
 
 def wave_2_rgb(wavelength, intensity):
     r = intensity * math.sin(wavelength * 0.024) ** 2
