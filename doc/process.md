@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmail.com
  * @Date: 2023-05-11 16:58:39
  * @LastEditors: hibana2077 hibana2077@gmail.com
- * @LastEditTime: 2023-05-12 01:01:45
+ * @LastEditTime: 2023-05-12 01:04:29
  * @FilePath: \smart_hydroponic_farm\doc\process.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -52,5 +52,13 @@
 
 ### 自研開發版
 
+- [ ] 細節流程待定
 - [ ] 設計電路
 - [ ] u-boot以及kernel移植
+
+## Extra
+
+### 生產記錄區塊鏈
+
+- [ ] 設計區塊鏈
+- [ ] 基礎設施
