@@ -1,0 +1,1 @@
+Only can develop on ubuntu os
