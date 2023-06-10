@@ -16,3 +16,14 @@ Y_TEST_PATH = DATA_DIR_PATH + "/Y_test.npy"
 MODEL_PATH = "../../models/plant_classifier.h5"
 #---------------------------------------------
 
+x_train = np.load(X_TRAIN_PATH)
+y_train = np.load(Y_TRAIN_PATH)
+x_test = np.load(X_TEST_PATH)
+y_test = np.load(Y_TEST_PATH)
+
+#------------------Show data------------------
+print("x_train shape: ", x_train.shape)
+print("y_train shape: ", y_train.shape)
+print("x_test shape: ", x_test.shape)
+print("y_test shape: ", y_test.shape)
+#---------------------------------------------
