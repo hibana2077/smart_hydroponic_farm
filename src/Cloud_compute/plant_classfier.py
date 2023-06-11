@@ -35,7 +35,19 @@ class PlantClassifier:
         self.model = keras.models.load_model(model_path)
         self.labels = json.load(open(label_path))
 
-    
+    def preprocess(self, img_data):
+        '''
+        Preprocess image
+        '''
+        # Read image
+        img = cv.imdecode(np.frombuffer(img_data.read(), np.uint8), cv.IMREAD_COLOR)
+        # Resize image
+        img = cv.resize(img, (224, 224))
+        # Reshape image
+        img = img.reshape(1, 224, 224, 3)
+        # Normalize image
+        img = img / 255.0
+        return img
 
     def predict(self, img_data):
         '''
