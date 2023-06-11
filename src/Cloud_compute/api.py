@@ -37,7 +37,8 @@ async def object_detection(picture: Picture):
 async def plant_classification(file: UploadFile = File(...)):
     import plant_classfier as pc
     PC = pc.PlantClassifier()
-    
+    prediction = PC.predict(file.file)
+    return {"prediction": prediction}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
