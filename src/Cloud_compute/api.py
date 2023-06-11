@@ -27,6 +27,7 @@ async def object_detection(picture: Picture):
 @app.post("/api/v1/plant_classification")
 async def plant_classification(picture: Picture):
     import plant_classfier as pc
+    PC = pc.PlantClassifier()
     
 
 if __name__ == "__main__":
