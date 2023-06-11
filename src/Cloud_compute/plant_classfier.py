@@ -35,7 +35,7 @@ class PlantClassifier:
         self.model = keras.models.load_model(model_path)
         self.labels = json.load(open(label_path))
 
-    def preprocess(self, img_data):
+    def preprocess(self, img_data):#it should be work
         '''
         Preprocess image
         '''
