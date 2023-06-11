@@ -35,15 +35,16 @@ class PlantClassifier:
         self.model = keras.models.load_model(model_path)
         self.labels = json.load(open(label_path))
 
-    def predict(self, img_path):
+    
+
+    def predict(self, img_data):
         '''
         Predict image
         '''
-        img = cv.imread(img_path)
-        img = cv.cvtColor(img, cv.COLOR_BGR2RGB)
-        img = cv.resize(img, (224, 224))
-        img = np.reshape(img, (1, 224, 224, 3))
-        img = img / 255.0
+        # Preprocess image
+        img = self.preprocess(img_data)
+        # Predict
         prediction = self.model.predict(img)
-        prediction = np.argmax(prediction)
-        return self.labels[str(prediction)]
+        # Get label
+        label = self.labels[str(np.argmax(prediction))]
+        return label
