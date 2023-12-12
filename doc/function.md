@@ -1,8 +1,8 @@
 <!--
  * @Author: hibana2077 hibana2077@gmail.com
  * @Date: 2023-12-12 08:35:24
- * @LastEditors: hibana2077 hibana2077@gmail.com
- * @LastEditTime: 2023-12-12 08:57:06
+ * @LastEditors: hibana2077 hibana2077@gmaill.com
+ * @LastEditTime: 2023-12-12 14:02:46
  * @FilePath: \smart_hydroponic_farm\doc\function.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -30,3 +30,4 @@
 - 智能數據分析
 - 預測模型
 - 轉型預算輔助軟體
+- 農業網宇化
