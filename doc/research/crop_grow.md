@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmaill.com
  * @Date: 2024-01-13 10:56:28
  * @LastEditors: hibana2077 hibana2077@gmaill.com
- * @LastEditTime: 2024-01-13 18:11:20
+ * @LastEditTime: 2024-01-16 22:37:51
  * @FilePath: /smart_hydroponic_farm/doc/research/crop_grow.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -37,3 +37,4 @@
 | 螢光燈 | 高 | 促使植物矮化和緊湊 |
 
 #### 水分控制
+
