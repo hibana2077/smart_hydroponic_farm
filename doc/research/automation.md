@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmaill.com
  * @Date: 2024-01-23 18:55:29
  * @LastEditors: hibana2077 hibana2077@gmaill.com
- * @LastEditTime: 2024-01-23 21:34:07
+ * @LastEditTime: 2024-01-23 21:39:02
  * @FilePath: /smart_hydroponic_farm/doc/research/automation.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -34,12 +34,14 @@
 - 植物營養控制
 - 遠程管理
 - 數據分析
+- 機械手臂
 
 ### 我們能把現有的技術做到更好
 
 - 數據分析
 - 更完整的植物營養控制
 - 通用植物疾病檢測和分類
+- 小型化且可複用的機械手臂
 
 ### 我們能做到的創新點
 
