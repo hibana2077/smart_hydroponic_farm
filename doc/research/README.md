@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmaill.com
  * @Date: 2024-01-13 10:55:34
  * @LastEditors: hibana2077 hibana2077@gmaill.com
- * @LastEditTime: 2024-01-19 09:18:30
+ * @LastEditTime: 2024-01-23 10:21:10
  * @FilePath: /smart_hydroponic_farm/doc/research/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -14,6 +14,7 @@ This directory contains research notes and other documents that are relevant to 
 
 - [Sample](sample.md) - A sample document that can be used as a template for other documents.
 - [作物生長和產量優化:光線與環境控制](crop_grow.md) - 研究如何透過環境去抑制作物的高度，並且提高作物的產量。
+- [水耕與傳統農業的比較:效率、成本、環境影響](hydroponic_vs_traditional.md) - 研究水耕與傳統農業的比較，包含效率、成本、環境影響等。
 
 ## TODO Subjects
 
