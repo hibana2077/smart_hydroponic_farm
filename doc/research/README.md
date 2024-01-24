@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmaill.com
  * @Date: 2024-01-13 10:55:34
  * @LastEditors: hibana2077 hibana2077@gmaill.com
- * @LastEditTime: 2024-01-24 16:35:21
+ * @LastEditTime: 2024-01-24 17:11:29
  * @FilePath: /smart_hydroponic_farm/doc/research/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -29,5 +29,4 @@ This directory contains research notes and other documents that are relevant to 
 - [x] 作物生長和產量優化:光線與環境控制
 - [x] 作物品種選擇和適應性研究:適合水耕的作物品種、適應性研究
 - [x] 水耕農業的市場潛力:市場規模、市場需求、市場趨勢
-- [ ] 成本效益分析:水耕農業的成本效益分析
-- [ ] 關於農作物的損益平衡:傳統農業的計算方法、水耕的計算方法
+- [x] 成本效益分析:水耕農業的成本效益分析
