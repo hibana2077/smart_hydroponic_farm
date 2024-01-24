@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmail.com
  * @Date: 2023-12-12 08:35:24
  * @LastEditors: hibana2077 hibana2077@gmaill.com
- * @LastEditTime: 2024-01-24 13:28:29
+ * @LastEditTime: 2024-01-24 13:31:20
  * @FilePath: \smart_hydroponic_farm\doc\function.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -19,7 +19,6 @@
 - 自動化採收
 - 節能照明系統
 - 循環水系統
-- 農業改良與基因編輯作物試驗功能
 
 ### 2. 培養環境
 
@@ -47,7 +46,3 @@
 - 轉型預算輔助網頁
 - 官方網站
 - 農業網宇化
-
-## 可選功能
-
-- 根據功能多寡分成不同版本: 食農教育版, 家庭版, 工廠版, 太空版, 農改版
