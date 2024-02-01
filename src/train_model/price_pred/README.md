@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmaill.com
  * @Date: 2024-02-01 17:42:12
  * @LastEditors: hibana2077 hibana2077@gmaill.com
- * @LastEditTime: 2024-02-01 19:10:50
+ * @LastEditTime: 2024-02-01 19:15:23
  * @FilePath: /smart_hydroponic_farm/src/train_model/price_pred/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -14,7 +14,6 @@
 - [歷史天氣資料](https://open-meteo.com/en/docs/historical-weather-api)
 
 ## 模型架構
-
 
 ## 參考資料
 
