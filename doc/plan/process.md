@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmail.com
  * @Date: 2023-05-11 16:58:39
  * @LastEditors: hibana2077 hibana2077@gmaill.com
- * @LastEditTime: 2024-01-24 16:05:04
+ * @LastEditTime: 2024-02-06 16:38:21
  * @FilePath: \smart_hydroponic_farm\doc\process.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: This file is used to check the process of this project.
 -->
@@ -68,8 +68,8 @@
 
 > 建立API Server，主要用於host AI模型，並提供API Endpoint
 
-- [ ] 設計API
-- [ ] 程式碼實現
+- [x] 設計API
+- [x] 程式碼實現
 - [ ] 部署
 - [ ] 測試
 
